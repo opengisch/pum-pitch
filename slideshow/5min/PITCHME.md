@@ -1,3 +1,3 @@
 ## 5' pitch
 
----?include=../topics/intro.md
+---?include=slideshow/topics/intro.md
