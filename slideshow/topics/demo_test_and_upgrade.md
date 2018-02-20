@@ -1,10 +1,12 @@
-@title[Demo]
+@title[Demo test_and_upgrade]
 # Demo test_and_upgrade
 
 +++
+@title[Demo]
 Scenario
-- test-and-upgrade
-
+- show info
+- test_and_upgrade
+- show info
 
 +++
 
