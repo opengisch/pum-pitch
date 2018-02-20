@@ -3,3 +3,5 @@
 ---?include=slideshow/topics/intro.md
 
 ---?include=slideshow/topics/features.md
+
+---?include=slideshow/topics/demo.md
