@@ -3,4 +3,6 @@ background : slideshow/assets/images/logo-round-bg-cut.svg
 background-size: cover
 logo: slideshow/assets/images/openGIS-complete-light.svg
 footnote : "© 2018 OPENGIS.ch"
+
+# If true, the menu will be simplified (i.e. no style menu and no git service menu)
 published: false
