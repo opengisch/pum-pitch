@@ -1,2 +1,3 @@
-theme: white
+theme: moon
 background : slideshow/assets/logo-round-bg-cut.svg
+background-size: auto
