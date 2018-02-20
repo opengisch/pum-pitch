@@ -1,8 +1,8 @@
-@title[Introduction]
+@title[Features]
 ## What can PUM do?
 
 +++
-@title[]
+@title[TODO]
 ### TODO 
 - dump
 - restore
