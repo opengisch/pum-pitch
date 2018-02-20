@@ -2,3 +2,5 @@ theme: white
 background : slideshow/assets/images/logo-round-bg-cut.svg
 background-size: cover
 logo: slideshow/assets/images/openGIS-complete-light.svg
+footnote : "© 2018 OPENGIS.ch"
+published: false
