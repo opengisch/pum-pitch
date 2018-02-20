@@ -4,4 +4,6 @@
 
 ---?include=slideshow/topics/features.md
 
----?include=slideshow/topics/demo.md
+---?include=slideshow/topics/demo_manual.md
+
+---?include=slideshow/topics/demo_test_and_upgrade.md
