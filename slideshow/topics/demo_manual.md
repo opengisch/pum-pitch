@@ -1,5 +1,5 @@
 @title[Demo manually upgrade]
-# Demo manually upgrade a database
+## Demo manually upgrade a database
 
 +++
 @title[Scenario]
