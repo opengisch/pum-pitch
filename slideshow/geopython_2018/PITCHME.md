@@ -91,7 +91,7 @@ Note:
 - Come detto in precedenza, qualche tempo fa ci siamo trovati a voler applicare queste pratiche in modo rigoroso in due progetti Opensource (QWAT e QGEP).
 - Esistono tools e software appositi (e.g. Flyway or Liquidbase).
 
-+++
+---
 PUM (Postgres Upgrades Manager)
 
 Noi abbiamo deciso di sviluppare PUM.
@@ -100,7 +100,7 @@ Note:
 per potersi integrare nel processo di QGEP e QWAT (con script python)
 per poterlo fare specifico per postgres (e postgis)
 
----
++++
 Cosa fa PUM?
 
 
@@ -113,13 +113,14 @@ check
 
 Note:
 - Permette di testare le differenze tra
----
+
++++
 upgrade
 
----
++++
 test-and-upgrade
 
----
++++
 delta files
 py e sql
 
@@ -127,7 +128,7 @@ py e sql
 pre e post
 
 ---
-Futuri sviluppi
+Futuro
 
 ---
 Domande e ringraziamenti
