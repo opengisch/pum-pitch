@@ -1,5 +1,5 @@
 theme: white
-background : assets/images/logo-round-bg-cut.svg
+background : /slideshow/assets/images/logo-round-bg-cut.svg
 background-size: cover
 logo: assets/images/openGIS-complete.png
 footnote : "© 2018 OPENGIS.ch"
