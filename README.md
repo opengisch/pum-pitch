@@ -1,11 +1,8 @@
 # pum-pitch
 Repository with PUM's promotional material (presentations, articles, etc.). Perhaps in the future it will be merged into the standard pum's repository.
 
-## 5 minutes presentation
-https://gitpitch.com/opengisch/pum-pitch/master?p=slideshow/5min
+## geopython 2018 final presentation
+https://gitpitch.com/opengisch/pum-pitch/master?p=slideshow/geopython_2018
 
-## 20 minutes presentation
-https://gitpitch.com/opengisch/pum-pitch/master?p=slideshow/20min
-
-## article
-TODO
+## geopython 2018 WIP presentation
+https://gitpitch.com/opengisch/pum-pitch/repitch?p=slideshow/geopython_2018
