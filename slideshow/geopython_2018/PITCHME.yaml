@@ -1,7 +1,7 @@
 theme: white
 background : /slideshow/assets/images/logo-round-bg-cut.svg
 background-size: cover
-logo: assets/images/openGIS-complete.png
+logo: openGIS-complete.png
 footnote : "© 2018 OPENGIS.ch"
 
 # If true, the menu will be simplified (i.e. no style menu and no git service menu)
