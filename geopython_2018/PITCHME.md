@@ -22,9 +22,8 @@ I work as developer (mostly on Python and Java), consultant, and teacher in the 
 
 ---
 @title[OpenGIS.ch]
-# OPENGIS.ch
+#### OPENGIS.ch
 Open source Geo-spatial Experts at your doorsteps
-TODO image
 ![opengis.ch](assets/images/opengis_team.png)
 
 Note:
