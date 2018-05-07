@@ -1,8 +1,0 @@
-
-background : logo-round-bg-cut.png
-background-size: cover
-logo: openGIS-complete.png
-footnote : "© 2018 OPENGIS.ch"
-
-# If true, the menu will be simplified (i.e. no style menu and no git service menu)
-published: false

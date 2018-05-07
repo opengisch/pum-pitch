@@ -1,0 +1,66 @@
+- [ ] front page
+- [ ] Mario Baranzini
+  - Picture
+  - Some data (ex. from old presentations)
+- [ ] Opengis.ch
+  - Logo
+  - Some data (ex. from old presentations)
+- [ ] Abstract
+  - Database migration and evolution
+- [ ] Waterfall
+  - Schema
+- [ ] Iterative
+  - Schema
+- [ ] Code evolution
+  - Code evolution
+- [ ] DB evolution
+  - DB evolution
+    - local db instances
+    - migration files
+    - versioning
+    - CI
+- [ ] Local DB instances
+  - Schema con db remote e local?
+- [ ] Migration files
+  - Migration (delta) files
+  - file with snippet of a update table
+- [ ] Version control
+  - Version control
+  - screenshot of a git commit / git push?
+- [ ] CI
+  - Continuous integration
+  - Schema continuous integration da OU
+- [ ] How to manage
+  - How to manage all this?
+  - Migration tools
+    - Flyway-db
+    - Liquibase
+    - ...
+- [ ] PUM
+  - PUM
+- [ ] What does PUM
+  - What does PUM
+    - check
+    - dump and restore
+    - upgrade
+    - ...
+- [ ] Check
+  - pum check
+  - screenshot check
+- [ ] Upgrade
+  - pum upgrade
+  - screenshot upgrade
+- [ ] Test-and-upgrade
+  - pum test-and-upgrade
+  - screenshot test-and-upgrade
+- [ ] Delta files
+  - Delta file
+  - Icon sql file
+  - Icon Python file
+  - Icon pre-all file
+  - Icon post-all file
+- [ ] Use and contribute
+  - pip install pum
+  - github link
+- [ ] Thank you
+  - Image thank you
