@@ -20,7 +20,7 @@ Some time ago, when the waterfall process was the common way to develop software
 
 ## Iterative processes
 Then, over time, other iterative development methodologies have made their way, where the whole process is repeated in more or less long iterations.
-- This involves the design of new features and sometimes the refactoring of existing ones with consequent evolutions of the code and the databse...
+- This involves the design of new features and sometimes the refactoring of existing ones with consequent evolution of the code and the database...
 
 ## Code evolution
 For code evolution's management, methodologies have spread widely and are universally accepted. One in all in the open-source area, is linked to the git software, which pushes the developer to work on a copy of the code, test the changes locally, and then merge the changes in the production code and push it back in the production repository.
