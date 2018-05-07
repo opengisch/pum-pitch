@@ -45,11 +45,11 @@ But let's do a go back for a second
 Note:
 Some time ago, when the waterfall process was the common way to develop software, we tended to define the db model at the beginning of development and we tried in every way to no longer modify it.
 
----?image=assets/images/iterative.png&size=auto 50%&position=50% 90%
+---
 @title[Iterative]
 ## <span class="gold">Iterative</span> development process
 
-@div[bottom-50]
+@div[bottom-30]
 ![iterative](assets/images/iterative.png)
 @divend
 Note:
