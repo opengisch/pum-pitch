@@ -14,7 +14,7 @@ Good afternoon. Welcome to my presentation about Postgres migrations using Pytho
 # Who am <span class="gold">I</span>?
 <span class="gold">Mario Baranzini</span>  
 BSc in Computer Science @ SUPSI  
-Developer, Consultant, Teacher  
+Developer, Consultant, Teacher, Student
 
 Note:
 My name is Mario Baranzini.
@@ -40,6 +40,7 @@ But let's do a go back for a second
 ---
 @title[Waterfall]
 TODO schema waterfall
+![waterfall](assets/images/waterfall.png)
 
 Note:
 Some time ago, when the waterfall process was the common way to develop software, we tended to define the db model at the beginning of development and we tried in every way to no longer modify it.

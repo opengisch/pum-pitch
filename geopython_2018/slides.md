@@ -1,19 +1,18 @@
-- [ ] front page
-- [ ] Mario Baranzini
-  - Picture
+- [X] front page
+- [X] Mario Baranzini
   - Some data (ex. from old presentations)
-- [ ] Opengis.ch
+- [X] Opengis.ch
   - Logo
   - Some data (ex. from old presentations)
-- [ ] Abstract
+- [X] Abstract
   - Database migration and evolution
 - [ ] Waterfall
   - Schema
 - [ ] Iterative
   - Schema
-- [ ] Code evolution
+- [X] Code evolution
   - Code evolution
-- [ ] DB evolution
+- [X] DB evolution
   - DB evolution
     - local db instances
     - migration files
@@ -32,11 +31,11 @@
   - Schema continuous integration da OU
 - [ ] How to manage
   - How to manage all this?
-  - Migration tools
+  - Migration tools ??
     - Flyway-db
     - Liquibase
     - ...
-- [ ] PUM
+- [X] PUM
   - PUM
 - [ ] What does PUM
   - What does PUM
