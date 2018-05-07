@@ -12,9 +12,9 @@ Good afternoon. Welcome to my presentation about Postgres migrations using Pytho
 ---
 @title[Who am I?]
 # Who am I?
-Mario Baranzini
-BSc in Computer Science @ SUPSI
-Developer, Consultant, Teacher
+<span class="gold">Mario Baranzini</span>  
+BSc in Computer Science @ SUPSI  
+Developer, Consultant, Teacher  
 
 Note:
 My name is Mario Baranzini.
