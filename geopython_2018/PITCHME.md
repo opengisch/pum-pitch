@@ -45,10 +45,9 @@ But let's do a go back for a second
 Note:
 Some time ago, when the waterfall process was the common way to develop software, we tended to define the db model at the beginning of development and we tried in every way to no longer modify it.
 
----
+---?image=assets/images/iterative.png
 @title[Iterative]
 ## <span class="gold">Iterative</span> development process
-![iterative](assets/images/iterative.png)
 
 Note:
 Then, over time, other iterative development methodologies have made their way, where the whole process is repeated in more or less long iterations.
