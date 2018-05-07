@@ -1,10 +1,8 @@
 @title[Title]
 
-### Postgres/PostGIS migrations using Python
+### Postgres/PostGIS <span class="gold">migrations</span> using Python
 #### PUMp your db with PUM
 
-Mario Baranzini - Opengis.ch
-Geopython 2018
-Basel - May 8
+<span class="byline">Geopython 2018, Basel - May 8, 2018</span>
 
 Note:
