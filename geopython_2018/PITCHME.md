@@ -47,7 +47,7 @@ Some time ago, when the waterfall process was the common way to develop software
 
 ---
 @title[Iterative]
-## <span class="gold">Iterative</span> development process
+### <span class="gold">Iterative</span> development process
 
 @div[center-10]
 ![iterative](assets/images/iterative.png)
