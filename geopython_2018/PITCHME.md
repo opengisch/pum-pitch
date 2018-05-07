@@ -25,7 +25,7 @@ I work as developer (mostly on Python and Java), consultant, and teacher in the 
 # OPENGIS.ch
 Open source Geo-spatial Experts at your doorsteps
 TODO image
-?image=assets/images/opengis_team.png
+![opengis.ch](assets/images/opengis_team.png)
 
 Note:
 I work in a small distributed company called OpenGIS.ch. We are specialized on open-source GIS and web development for small and medium businessess.
