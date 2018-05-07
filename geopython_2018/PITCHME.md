@@ -11,7 +11,7 @@ Good afternoon. Welcome to my presentation about Postgres migrations using Pytho
 
 ---
 @title[Who am I?]
-# Who am I?
+# Who am <span class="gold">I</span>?
 <span class="gold">Mario Baranzini</span>  
 BSc in Computer Science @ SUPSI  
 Developer, Consultant, Teacher  
@@ -30,7 +30,7 @@ Note:
 I work in a small distributed company called OpenGIS.ch. We are specialized on open-source GIS and web development for small and medium businessess.
 ---
 @title[Abstract]
-## Database migration and evolution
+## PostgreSQL/PostGIS <span class="gold">migration and evolution</span>
 
 Note:
 Today I am here to talk to you about database migration and evolution. I want to show to you how we manage database evolution in two open-source projects related to QGIS: QWAT and QGEP. Two projects for manage water networks. One for drinkable water and the other for waste water.
@@ -53,14 +53,14 @@ Then, over time, other iterative development methodologies have made their way, 
 This involves the design of new features and sometimes the refactoring of existing ones with consequent evolution of the code and the database...
 ---
 @title[Code evolution]
-## Code evolution
+## <span class="gold">Code</span> evolution
 
 Note:
 For code evolution's management, methodologies have spread widely and are universally accepted. One of the most used is code versioning. Software like GIT push the developer to work on a copy of the code, test the changes locally, and then merge the changes in the production code and push it back in the production repository.
 
 ---
 @title[DB evolution]
-## DB evolution
+## <span class="gold">Database</span> evolution
 - local DB instances
 - migration files
 - versioning
@@ -100,7 +100,7 @@ Every db artefacts (generation script, delta file, data dump, db specification, 
 +++
 @title[CI]
 # Continuous Integration
-
+TODO schema CI
 Note:
 C.I. stands for Continuous Integration and is referred to a set of techniques and tools to automatically build our code (i.e. our db scripts), execute integration tests, and release the result, ready to be used in a product.
 
@@ -120,7 +120,7 @@ So we created PUM. PUM was greatly inspired by the existing migration tools and 
 
 +++
 @title[What does PUM]
-# What does PUM?
+# What does <span class="gold">PUM</span>?
 - check
 - dump and restore
 - upgrade
