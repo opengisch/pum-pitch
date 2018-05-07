@@ -1,7 +1,7 @@
 theme : night
 theme-override : assets/css/PITCHME.css
 background : assets/images/wallpaper3.jpg
-logo : assets/images/openGIS-complete-light.png
+logo : assets/images/openGIS-Text.png
 transition : none
 footnote : "© 2018 OPENGIS.ch"
 
