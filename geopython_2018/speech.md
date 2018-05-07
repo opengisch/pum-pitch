@@ -8,12 +8,12 @@ My name is Mario Baranzini.
 I work as developer (mostly on Python and Java), consultant, and teacher in the GIS field. I come from the Italian speaking part of Switzerland (so sorry for my English...).
 
 ## OpenGIS.ch
-I work in a small company called OpenGIS.ch. We are specialized on open-source GIS and web development for small and medium businessess.
+I work in a small distributed company called OpenGIS.ch. We are specialized on open-source GIS and web development for small and medium businessess.
 
 ## Abstract
 Today I am here to talk to you about database migration and evolution. I want to show to you how we manage database evolution in two open-source projects related to QGIS: QWAT and QGEP. Two projects for manage water networks. One for drinkable water and the other for waste water.
 
-But let's do a jump back for a second
+But let's do a go back for a second
 
 ## Waterfall processes
 Some time ago, when the waterfall process was the common way to develop software, we tended to define the db model at the beginning of development and we tried in every way to no longer modify it.
@@ -23,7 +23,7 @@ Then, over time, other iterative development methodologies have made their way, 
 - This involves the design of new features and sometimes the refactoring of existing ones with consequent evolution of the code and the database...
 
 ## Code evolution
-For code evolution's management, methodologies have spread widely and are universally accepted. One in all in the open-source area, is linked to the git software, which pushes the developer to work on a copy of the code, test the changes locally, and then merge the changes in the production code and push it back in the production repository.
+For code evolution's management, methodologies have spread widely and are universally accepted. One of the most used is code versioning. Software like GIT push the developer to work on a copy of the code, test the changes locally, and then merge the changes in the production code and push it back in the production repository.
 
 ## DB evolution
 In the database area, however, often changes are managed in a more informal way even if there are recognized practices.
@@ -49,8 +49,7 @@ C.I. stands for Continuous Integration and is referred to a set of techniques an
 The simplest and safest way to handle these practices is to use a so-called migration tool. There are several migration tools available e.g. Flyway-db or Liquibase.
 
 ## PUM
-And there is PUM (Postgres Upgrades Manager).
-As mentioned earlier, some time ago we wanted to apply these practices in two Opensource projects (QWAT and QGEP). We wanted a tool specific for PostgreSQL and PostGIS, and above all, we wanted to integrate the tool into the already existing development process of QWAT and QGEP databases, which are based on the use of SQL files, but also Python scripts.
+As mentioned earlier, some time ago we wanted to apply these practices in two Opensource projects (QWAT and QGEP). We wanted a tool _specific_ for PostgreSQL and PostGIS, and above all, we wanted to integrate the tool into the already existing development process of QWAT and QGEP databases, which are based on the use of SQL files, but also Python scripts.
 So we created PUM. PUM was greatly inspired by the existing migration tools and is very simple and easy to use, adapt and extend.
 
 ## What does PUM?
@@ -92,7 +91,7 @@ As said before, a delta file can be a SQL file containing one or more SQL statem
 There are different kind of delta files like the pre-all and the post-all that are executed on each migration.
 
 ## Use and contribute
-PUM is installable using pip install pum.
+PUM is installable using *pip install pum*.
 PUM sources are released under GPL Licence and are available at https://github.com/opengisch/pum Feel free to modify and propose your contributions.
 
 ## Thank you
