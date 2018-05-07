@@ -39,7 +39,7 @@ But let's do a go back for a second
 
 ---
 @title[Waterfall]
-TODO schema waterfall
+## <span class="gold">Sequential</span> development process
 ![waterfall](assets/images/waterfall.png)
 
 Note:
@@ -47,7 +47,8 @@ Some time ago, when the waterfall process was the common way to develop software
 
 ---
 @title[Iterative]
-TODO schema iterative
+## <span class="gold">Iterative</span> development process
+![iterative](assets/images/iterative.png)
 
 Note:
 Then, over time, other iterative development methodologies have made their way, where the whole process is repeated in more or less long iterations.
