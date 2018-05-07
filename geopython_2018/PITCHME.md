@@ -48,6 +48,8 @@ Some time ago, when the waterfall process was the common way to develop software
 ---?image=assets/images/iterative.png&size=auto 50%&position=bottom
 @title[Iterative]
 ## <span class="gold">Iterative</span> development process
+<br>
+<br>
 
 Note:
 Then, over time, other iterative development methodologies have made their way, where the whole process is repeated in more or less long iterations.
