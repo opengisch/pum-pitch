@@ -180,7 +180,11 @@ The test-and-upgrade command does the following steps:
 +++
 @title[delta files]
 ## <span class="gold">Delta</span> files
-TODO icons
+- SQL
+- Python
+<br>
+- pre
+- post
 
 Note:
 As said before, a delta file can be a SQL file containing one or more SQL statements or a Python module containing a class that is a subclass of DeltaPy.
