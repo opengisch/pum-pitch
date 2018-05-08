@@ -102,7 +102,7 @@ Every change made by a developer on the database must be contained in a delta fi
 +++
 @title[Version control]
 ## Version control
-TODO screenshot of something git related (or xkcd?)
+![git](assets/images/git.png)
 
 Note:
 Every db artefacts (generation script, delta file, data dump, db specification, ...) is version controlled (e.g. with git).
