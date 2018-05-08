@@ -183,6 +183,7 @@ The test-and-upgrade command does the following steps:
 - SQL
 - Python
 <br>
+<br>
 - pre
 - post
 
