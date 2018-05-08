@@ -114,7 +114,7 @@ Every db artefacts (generation script, delta file, data dump, db specification, 
 
 +++
 @title[CI]
-## Continuous Integration
+## C.I.
 ![ci](assets/images/ci.png)
 Note:
 C.I. stands for Continuous Integration and is referred to a set of techniques and tools to automatically build our code (i.e. our db scripts), execute integration tests, and release the result, ready to be used in a product.
