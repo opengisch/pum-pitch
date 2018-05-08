@@ -23,7 +23,7 @@
 - [X] Migration files
   - Migration (delta) files
   - file with snippet of a update table
-- [ ] Version control
+- [X] Version control
   - Version control
   - screenshot of a git commit / git push?
 - [X] CI

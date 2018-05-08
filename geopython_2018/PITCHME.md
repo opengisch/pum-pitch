@@ -17,8 +17,9 @@ BSc in Computer Science @ SUPSI
 Developer, Consultant, Teacher, Student
 
 Note:
+just 2 words about me...
 My name is Mario Baranzini.
-I work as developer (mostly on Python and Java), consultant, and teacher in the GIS field. I come from the Italian speaking part of Switzerland (so sorry for my English...).
+I work as developer (mostly on Python and Java), consultant, and teacher in the GIS field. But I also try to always improve my Software engineering skills. I come from the Italian speaking part of Switzerland (so sorry for my English...).
 
 ---
 @title[OpenGIS.ch]
@@ -53,7 +54,7 @@ Some time ago, when the waterfall process was the common way to develop software
 
 Note:
 Then, over time, other iterative development methodologies have made their way, where the whole process is repeated in more or less long iterations.
-This involves the design of new features and sometimes the refactoring of existing ones with consequent evolution of the code and the database...
+This involves the design of new features and often the refactoring of existing ones with consequent evolution of the code and the database...
 ---
 @title[Code evolution]
 ## <span class="gold">Code</span> evolution
@@ -61,7 +62,7 @@ This involves the design of new features and sometimes the refactoring of existi
 ![git workflow](assets/images/git_wf.png)
 
 Note:
-For code evolution's management, methodologies have spread widely and are universally accepted. One of the most used is code versioning. Software like GIT push the developer to work on a copy of the code, test the changes locally, and then merge the changes in the production code and push it back in the production repository.
+For code evolution's management, some methodologies are universally accepted. One of the most used is code versioning. Software like GIT push the developer to work on a copy of the code, test the changes locally, and then merge the changes in the production code and push it back in the production repository.
 
 ---
 @title[DB evolution]
