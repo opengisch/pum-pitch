@@ -80,7 +80,7 @@ Some of the most important and useful practices, which often use a similar appro
 +++
 @title[local DB instances]
 ## Local DB instances
-Todo schema
+![local db](assets/images/local_db.png)
 
 Note:
 As happens with the code, each developer works on a local copy of the database. This implies that the local database generation must be simple and automated via scripts. Docker or similar tools are a big help for this.
