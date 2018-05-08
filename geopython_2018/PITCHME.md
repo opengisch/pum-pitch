@@ -11,7 +11,7 @@ Good afternoon. Welcome to my presentation about Postgres migrations using Pytho
 
 ---
 @title[Who am I?]
-# Who am <span class="gold">I</span>?
+## Who am <span class="gold">I</span>?
 <span class="gold">Mario Baranzini</span>  
 BSc in Computer Science @ SUPSI  
 Developer, Consultant, Teacher, Student
@@ -86,7 +86,7 @@ As happens with the code, each developer works on a local copy of the database. 
 
 +++
 @title[Migration files]
-# Migration (delta) files
+## Migration (delta) files
 TODO example snippet sql and python
 
 Note:
@@ -94,7 +94,7 @@ Every change made by a developer on the database must be contained in a delta fi
 
 +++
 @title[Version control]
-# Version control
+## Version control
 TODO screenshot of something git related (or xkcd?)
 
 Note:
@@ -102,20 +102,20 @@ Every db artefacts (generation script, delta file, data dump, db specification, 
 
 +++
 @title[CI]
-# Continuous Integration
+## Continuous Integration
 TODO schema CI
 Note:
 C.I. stands for Continuous Integration and is referred to a set of techniques and tools to automatically build our code (i.e. our db scripts), execute integration tests, and release the result, ready to be used in a product.
 
 ---
 @title[How to manage all this]
-# How to manage all this?
+## How to manage all this?
 Note:
 The simplest and safest way to handle these practices is to use a so-called migration tool. There are several migration tools available e.g. Flyway-db or Liquibase.
 
 ---
 @title[PUM]
-# PUM
+## PUM
 
 Note:
 As mentioned earlier, some time ago we wanted to apply these practices in two Opensource projects (QWAT and QGEP). We wanted a tool _specific_ for PostgreSQL and PostGIS, and above all, we wanted to integrate the tool into the already existing development process of QWAT and QGEP databases, which are based on the use of SQL files, but also Python scripts.
@@ -123,7 +123,7 @@ So we created PUM. PUM was greatly inspired by the existing migration tools and 
 
 +++
 @title[What does PUM]
-# What does <span class="gold">PUM</span>?
+## What does <span class="gold">PUM</span>?
 - check
 - dump and restore
 - upgrade
@@ -139,7 +139,7 @@ and some other useful operations like testing a migration before applying it.
 
 +++
 @title[Check]
-# `pum check`
+## `pum check`
 TODO screenshot
 
 Note:
@@ -157,7 +157,7 @@ It's possible to ignore one or more of these elements.
 
 +++
 @title[Upgrade]
-# `pum upgrade`
+## `pum upgrade`
 TODO screenshot
 
 Note:
@@ -165,7 +165,7 @@ The upgrade command is used to upgrade an existing database using SQL or Python 
 
 +++
 @title[Test-and-upgrade]
-# `pum test-and-upgrade`
+## `pum test-and-upgrade`
 TODO screenshot
 
 Note:
@@ -178,7 +178,7 @@ The test-and-upgrade command does the following steps:
 
 +++
 @title[delta files]
-# Delta files
+## <span class="gold">Delta</span> files
 TODO icons
 
 Note:
@@ -188,7 +188,7 @@ There are different kind of delta files like the pre-all and the post-all that a
 
 ---
 @title[Use and contribute]
-# Use and contribute
+## Use and contribute
 - `pip install pum`
 - https://github.com/opengisch/pum
 Note:
@@ -197,7 +197,7 @@ PUM sources are released under GPL Licence and are available at https://github.c
 
 ---
 @title[Thank you]
-# Thank you
+## Thank <span class="gold">you</span>
 #### for your attention
 Note:
 Thank you for your attention.
