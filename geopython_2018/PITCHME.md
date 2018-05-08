@@ -174,11 +174,16 @@ It's possible to ignore one or more of these elements.
 @title[Upgrade]
 ## `pum upgrade`
 ![local db](assets/images/upgrade_1.png)
-![local db](assets/images/upgrade_2.png)
-![local db](assets/images/upgrade_3.png)
 
 Note:
 The upgrade command is used to upgrade an existing database using SQL or Python delta files. The command applies one or more delta files to an existing database and stores in a table the information about the applied deltas.
+
++++
+@title[Upgrade 2]
+![local db](assets/images/upgrade_2.png)
+![local db](assets/images/upgrade_3.png)
+
+
 
 +++
 @title[Test-and-upgrade]
