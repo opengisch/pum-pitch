@@ -102,7 +102,7 @@ Every change made by a developer on the database must be contained in a delta fi
 +++
 @title[Version control]
 ## Version control
-![git](assets/images/git.png)
+TODO
 
 Note:
 Every db artefacts (generation script, delta file, data dump, db specification, ...) is version controlled (e.g. with git).
@@ -152,6 +152,44 @@ and some other useful operations like testing a migration before applying it.
 +++
 @title[Check]
 ## `pum check`
+
+```
+$ pum check -p1 db_1 -p2 db_2
+
+Check...OK
+columns: []
+constraints: []
+functions: []
+indexes: []
+rules: []
+sequences: []
+tables: []
+triggers: []
+views: []
+
+$ psql "service=db_1" -c "CREATE TABLE foo (id integer, name text);"
+
+CREATE TABLE
+
+$ pum check -p1 db_1 -p2 db_2                                        
+
+Check...DIFFERENCES FOUND
+columns:
+- '- (''public'', ''foo'', ''id'', None, ''YES'', ''integer'', None, ''32'', ''2'',
+  None)'
+- '- (''public'', ''foo'', ''name'', None, ''YES'', ''text'', None, None, None, None)'
+constraints: []
+functions: []
+indexes: []
+rules: []
+sequences: []
+tables:
+- '- (''public'', ''foo'')'
+triggers: []
+views: []
+
+```
+
 TODO screenshot
 
 Note:
