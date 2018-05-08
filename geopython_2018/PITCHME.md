@@ -90,7 +90,11 @@ As happens with the code, each developer works on a local copy of the database. 
 +++
 @title[Migration files]
 ## Migration (delta) files
-TODO example snippet sql and python
+```
+ALTER TABLE distributors
+    ALTER COLUMN address TYPE varchar(80),
+    ALTER COLUMN name TYPE varchar(100);
+```
 
 Note:
 Every change made by a developer on the database must be contained in a delta file. A delta file is usually an SQL script that contains the statements to change the database.

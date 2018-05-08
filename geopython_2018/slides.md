@@ -29,7 +29,7 @@
 - [X] CI
   - Continuous integration
   - Schema continuous integration da OU
-- [ ] How to manage
+- [X] How to manage
   - How to manage all this?
   - Migration tools ??
     - Flyway-db
@@ -37,7 +37,7 @@
     - ...
 - [X] PUM
   - PUM
-- [ ] What does PUM
+- [X] What does PUM
   - What does PUM
     - check
     - dump and restore
@@ -49,17 +49,17 @@
 - [ ] Upgrade
   - pum upgrade
   - screenshot upgrade
-- [ ] Test-and-upgrade
+- [X] Test-and-upgrade
   - pum test-and-upgrade
   - screenshot test-and-upgrade
-- [ ] Delta files
+- [X] Delta files
   - Delta file
   - Icon sql file
   - Icon Python file
   - Icon pre-all file
   - Icon post-all file
-- [ ] Use and contribute
+- [X] Use and contribute
   - pip install pum
   - github link
-- [ ] Thank you
+- [X] Thank you
   - Image thank you
