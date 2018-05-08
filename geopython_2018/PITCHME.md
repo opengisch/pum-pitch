@@ -157,6 +157,7 @@ The check command compares 2 databases and shows the differences. It compares th
 - triggers
 - functions
 - rules
+
 It's possible to ignore one or more of these elements.
 
 +++
@@ -170,7 +171,7 @@ The upgrade command is used to upgrade an existing database using SQL or Python 
 +++
 @title[Test-and-upgrade]
 ## `pum test-and-upgrade`
-TODO screenshot
+![test and upgrade](assets/images/test_and_upgrade.png)
 
 Note:
 The test-and-upgrade command does the following steps:
