@@ -152,45 +152,9 @@ and some other useful operations like testing a migration before applying it.
 +++
 @title[Check]
 ## `pum check`
-
-```
-$ pum check -p1 db_1 -p2 db_2
-
-Check...OK
-columns: []
-constraints: []
-functions: []
-indexes: []
-rules: []
-sequences: []
-tables: []
-triggers: []
-views: []
-
-$ psql "service=db_1" -c "CREATE TABLE foo (id integer, name text);"
-
-CREATE TABLE
-
-$ pum check -p1 db_1 -p2 db_2                                        
-
-Check...DIFFERENCES FOUND
-columns:
-- '- (''public'', ''foo'', ''id'', None, ''YES'', ''integer'', None, ''32'', ''2'',
-  None)'
-- '- (''public'', ''foo'', ''name'', None, ''YES'', ''text'', None, None, None, None)'
-constraints: []
-functions: []
-indexes: []
-rules: []
-sequences: []
-tables:
-- '- (''public'', ''foo'')'
-triggers: []
-views: []
-
-```
-
-TODO screenshot
+![local db](assets/images/check_1.png)
+![local db](assets/images/check_2.png)
+![local db](assets/images/check_3.png)
 
 Note:
 The check command compares 2 databases and shows the differences. It compares the following elements and tells if they are different:
