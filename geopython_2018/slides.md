@@ -20,7 +20,7 @@
     - CI
 - [X] Local DB instances
   - Schema con db remote e local?
-- [ ] Migration files
+- [X] Migration files
   - Migration (delta) files
   - file with snippet of a update table
 - [ ] Version control
@@ -43,10 +43,10 @@
     - dump and restore
     - upgrade
     - ...
-- [ ] Check
+- [X] Check
   - pum check
   - screenshot check
-- [ ] Upgrade
+- [X] Upgrade
   - pum upgrade
   - screenshot upgrade
 - [X] Test-and-upgrade
