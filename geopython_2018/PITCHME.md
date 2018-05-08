@@ -151,7 +151,7 @@ and some other useful operations like testing a migration before applying it.
 
 +++
 @title[Check]
-## `pum check`
+### `pum check`
 ![local db](assets/images/check_1.png)
 ![local db](assets/images/check_2.png)
 ![local db](assets/images/check_3.png)
@@ -172,7 +172,7 @@ It's possible to ignore one or more of these elements.
 
 +++
 @title[Upgrade]
-## `pum upgrade`
+### `pum upgrade`
 ![local db](assets/images/upgrade_1.png)
 
 Note:
@@ -187,7 +187,7 @@ The upgrade command is used to upgrade an existing database using SQL or Python 
 
 +++
 @title[Test-and-upgrade]
-## `pum test-and-upgrade`
+### `pum test-and-upgrade`
 ![test and upgrade](assets/images/test_and_upgrade.png)
 
 Note:
