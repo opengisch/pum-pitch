@@ -18,7 +18,7 @@
     - migration files
     - versioning
     - CI
-- [ ] Local DB instances
+- [X] Local DB instances
   - Schema con db remote e local?
 - [ ] Migration files
   - Migration (delta) files
@@ -26,7 +26,7 @@
 - [ ] Version control
   - Version control
   - screenshot of a git commit / git push?
-- [ ] CI
+- [X] CI
   - Continuous integration
   - Schema continuous integration da OU
 - [ ] How to manage
