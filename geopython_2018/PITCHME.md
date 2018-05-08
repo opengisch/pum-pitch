@@ -58,6 +58,8 @@ This involves the design of new features and sometimes the refactoring of existi
 @title[Code evolution]
 ## <span class="gold">Code</span> evolution
 
+![git workflow](assets/images/git_wf.png)
+
 Note:
 For code evolution's management, methodologies have spread widely and are universally accepted. One of the most used is code versioning. Software like GIT push the developer to work on a copy of the code, test the changes locally, and then merge the changes in the production code and push it back in the production repository.
 
@@ -110,7 +112,7 @@ C.I. stands for Continuous Integration and is referred to a set of techniques an
 
 ---
 @title[How to manage all this]
-## How to manage all this?
+## How to <span class="gold">manage</span> all this?
 Note:
 The simplest and safest way to handle these practices is to use a so-called migration tool. There are several migration tools available e.g. Flyway-db or Liquibase.
 
