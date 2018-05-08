@@ -113,6 +113,9 @@ C.I. stands for Continuous Integration and is referred to a set of techniques an
 ---
 @title[How to manage all this]
 ## How to <span class="gold">manage</span> all this?
+![ci](assets/images/flyway_logo.png)
+![ci](assets/images/liquibase.png)
+
 Note:
 The simplest and safest way to handle these practices is to use a so-called migration tool. There are several migration tools available e.g. Flyway-db or Liquibase.
 
@@ -139,6 +142,7 @@ Pum permits the followings operations on Postgres databases:
 - check the differences between two databases
 - create and restore a backup (dump file) of a database
 - upgrade a database applying delta files
+
 and some other useful operations like testing a migration before applying it.
 
 +++
