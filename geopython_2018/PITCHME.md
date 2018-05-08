@@ -118,7 +118,8 @@ The simplest and safest way to handle these practices is to use a so-called migr
 
 ---
 @title[PUM]
-## PUM
+## <span class="gold">PUM</span>
+#### Postgres Upgrade Manager
 
 Note:
 As mentioned earlier, some time ago we wanted to apply these practices in two Opensource projects (QWAT and QGEP). We wanted a tool _specific_ for PostgreSQL and PostGIS, and above all, we wanted to integrate the tool into the already existing development process of QWAT and QGEP databases, which are based on the use of SQL files, but also Python scripts.
