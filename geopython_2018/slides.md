@@ -6,9 +6,9 @@
   - Some data (ex. from old presentations)
 - [X] Abstract
   - Database migration and evolution
-- [ ] Waterfall
+- [X] Waterfall
   - Schema
-- [ ] Iterative
+- [X] Iterative
   - Schema
 - [X] Code evolution
   - Code evolution

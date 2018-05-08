@@ -22,7 +22,7 @@ I work as developer (mostly on Python and Java), consultant, and teacher in the 
 
 ---
 @title[OpenGIS.ch]
-### OPENGIS.ch
+### <span class="gold">OPENGIS.ch</span>
 Open source Geo-spatial Experts at your doorsteps
 ![opengis.ch](assets/images/opengis_team.png)
 
@@ -79,6 +79,7 @@ Some of the most important and useful practices, which often use a similar appro
 
 +++
 @title[local DB instances]
+## Local DB instances
 Todo schema
 
 Note:
@@ -103,7 +104,7 @@ Every db artefacts (generation script, delta file, data dump, db specification, 
 +++
 @title[CI]
 ## Continuous Integration
-TODO schema CI
+![ci](assets/images/ci.png)
 Note:
 C.I. stands for Continuous Integration and is referred to a set of techniques and tools to automatically build our code (i.e. our db scripts), execute integration tests, and release the result, ready to be used in a product.
 
