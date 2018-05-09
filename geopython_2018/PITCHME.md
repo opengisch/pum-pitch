@@ -1,7 +1,7 @@
 @title[Title]
 
-### Postgres/PostGIS <span class="gold">migrations</span> using Python
-#### <span class="gold">PUMp your db with PUM</span>
+### Postgres/PostGIS <span class="green">migrations</span> using Python
+#### <span class="green">PUMp your db with PUM</span>
 <br>
 <br>
 <span class="byline">Geopython 2018, Basel - May 8, 2018</span>
@@ -11,8 +11,8 @@ Good afternoon. Welcome to my presentation about Postgres migrations using Pytho
 
 ---
 @title[Who am I?]
-## Who am <span class="gold">I</span>?
-<span class="gold">Mario Baranzini</span>  
+## Who am <span class="green">I</span>?
+<span class="green">Mario Baranzini</span>  
 BSc in Computer Science @ SUPSI  
 Developer, Consultant, Teacher, Student
 
@@ -23,7 +23,7 @@ I work as developer (mostly on Python and Java), consultant, and teacher in the 
 
 ---
 @title[OpenGIS.ch]
-### <span class="gold">OPENGIS.ch</span>
+### <span class="green">OPENGIS.ch</span>
 Open source Geo-spatial Experts at your doorsteps
 ![opengis.ch](assets/images/opengis_team.png)
 
@@ -31,7 +31,7 @@ Note:
 I work in a small distributed company called OpenGIS.ch. We are specialized on open-source GIS and web development for small and medium businessess.
 ---
 @title[Abstract]
-## PostgreSQL/PostGIS <span class="gold">migration and evolution</span>
+## PostgreSQL/PostGIS <span class="green">migration and evolution</span>
 
 Note:
 Today I am here to talk to you about database migration and evolution. I want to show to you how we manage database evolution in two open-source projects related to QGIS: QWAT and QGEP. Two projects for manage water networks. One for drinkable water and the other for waste water.
@@ -40,7 +40,7 @@ But let's do a go back for a second
 
 ---
 @title[Waterfall]
-## <span class="gold">Sequential</span> development process
+## <span class="green">Sequential</span> development process
 ![waterfall](assets/images/waterfall.png)
 
 Note:
@@ -48,7 +48,7 @@ Some time ago, when the waterfall process was the common way to develop software
 
 ---
 @title[Iterative]
-## <span class="gold">Iterative</span> development process
+## <span class="green">Iterative</span> development process
 
 ![iterative](assets/images/iterative_large.png)
 
@@ -57,7 +57,7 @@ Then, over time, other iterative development methodologies have made their way, 
 This involves the design of new features and often the refactoring of existing ones with consequent evolution of the code and the database...
 ---
 @title[Code evolution]
-## <span class="gold">Code</span> evolution
+## <span class="green">Code</span> evolution
 
 ![git workflow](assets/images/git_wf.png)
 
@@ -66,7 +66,7 @@ For code evolution's management, some methodologies are universally accepted. On
 
 ---
 @title[DB evolution]
-## <span class="gold">Database</span> evolution
+## <span class="green">Database</span> evolution
 - local DB instances
 - migration files
 - versioning
@@ -121,16 +121,16 @@ C.I. stands for Continuous Integration and is referred to a set of techniques an
 
 ---
 @title[How to manage all this]
-## How to <span class="gold">manage</span> all this?
+## How to <span class="green">manage</span> all this?
 ![ci](assets/images/flyway_logo.png)
 ![ci](assets/images/liquibase.png)
 
 Note:
-The simplest and safest way to handle these practices is to use a so-called migration tool. There are several migration tools available e.g. Flyway-db or Liquibase.
+The simplest and safest way to handle these practices is to use a so-called migration tool. There are several migration tools available e.g. Flyway-db or Liquibase only to mention 2 of them.
 
 ---
 @title[PUM]
-## <span class="gold">PUM</span>
+## <span class="green">PUM</span>
 #### Postgres Upgrade Manager
 
 Note:
@@ -139,7 +139,7 @@ So we created PUM. PUM was greatly inspired by the existing migration tools and 
 
 +++
 @title[What does PUM]
-## What does <span class="gold">PUM</span>?
+## What does <span class="green">PUM</span>?
 - check
 - dump and restore
 - upgrade
@@ -205,7 +205,7 @@ The test-and-upgrade command does the following steps:
 
 +++
 @title[delta files]
-## <span class="gold">Delta</span> files
+## <span class="green">Delta</span> files
 - SQL
 - Python
 <br>
@@ -229,7 +229,7 @@ PUM sources are released under GPL Licence and are available at https://github.c
 
 ---
 @title[Thank you]
-## Thank <span class="gold">you</span>
+## Thank <span class="green">you</span>
 #### for your attention
 Note:
 Thank you for your attention.
