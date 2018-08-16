@@ -4,7 +4,7 @@
 #### <span class="green">PUMp your db with PUM</span>
 <br>
 <br>
-<span class="byline">Geopython 2018, Basel - May 8, 2018</span>
+<span class="byline">FOSS4G 2018, Dar Es Salaam - August 30, 2018</span>
 
 Note:
 Good afternoon. Welcome to my presentation about Postgres migrations using Python.
