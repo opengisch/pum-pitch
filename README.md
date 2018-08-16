@@ -1,5 +1,8 @@
 # pum-pitch
 Repository with PUM's promotional material (presentations, articles, etc.). Perhaps in the future it will be merged into the standard pum's repository.
 
-## geopython 2018 presentation
+## Geopython 2018 presentation
 https://gitpitch.com/opengisch/pum-pitch/master?p=geopython_2018
+
+## Foss4g 2018 presentation
+https://gitpitch.com/opengisch/pum-pitch/tanzania?p=foss4g_2018
