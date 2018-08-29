@@ -4,22 +4,28 @@
 #### <span class="green">PUMp your db with PUM</span>
 <br>
 <br>
-<span class="byline">FOSS4G 2018, Dar Es Salaam - August 30, 2018</span>
+<span class="byline">FOSS4G 2018, Dar es Salaam - August 30, 2018</span>
 
 Note:
 Good afternoon. Welcome to my presentation about Postgres migrations using Python.
+
+_Pronunciation:_
+Command - coMEND
+Migration - maiGREtion
+Development - diVElopment
+
 
 ---
 @title[Who am I?]
 ## Who am <span class="green">I</span>?
 <span class="green">Mario Baranzini</span>  
-BSc in Computer Science @ SUPSI  
+BSc in Computer Science  
 Developer, Consultant, Teacher, Student
 
 Note:
 just 2 words about me...
 My name is Mario Baranzini.
-I work as developer (mostly on Python and Java), consultant, and teacher in the GIS field. But I also try to always improve my Software engineering skills. I come from the Italian speaking part of Switzerland (so sorry for my English...).
+I work as a developer (mostly on Python and Java), a consultant, and a teacher in the GIS field. But I also try to always improve my Software engineering skills. I come from the Italian speaking part of Switzerland (so sorry for my English...).
 
 ---
 @title[OpenGIS.ch]
@@ -34,7 +40,7 @@ I work in a small distributed company called OpenGIS.ch. We are specialized on o
 ## PostgreSQL/PostGIS <span class="green">migration and evolution</span>
 
 Note:
-Today I am here to talk to you about database migration and evolution. I want to show to you how we manage database evolution in two open-source projects related to QGIS: QWAT and QGEP. Two projects for manage water networks. One for drinkable water and the other for waste water.
+Today I am here to talk to you about database migration and evolution. I want to show to you how we manage database evolution in two open-source projects related to QGIS: QWAT and QGEP. Two projects to manage water networks. One for drinkable water and the other for waste water.
 
 But let's do a go back for a second
 
@@ -138,8 +144,8 @@ As mentioned earlier, some time ago we wanted to apply these practices in two Op
 So we created PUM. PUM was greatly inspired by the existing migration tools and is very simple and easy to use, adapt and extend.
 
 +++
-@title[What does PUM]
-## What does <span class="green">PUM</span>?
+@title[What does PUM do]
+## What does <span class="green">PUM</span> do?
 - check
 - dump and restore
 - upgrade

@@ -23,7 +23,7 @@ I work as developer (mostly on Python and Java), consultant, and teacher in the 
 
 ---
 @title[OpenGIS.ch]
-### <span class="green">OPENGIS.ch</span> 
+### <span class="green">OPENGIS.ch</span>
 Open source Geo-spatial Experts at your doorsteps
 ![opengis.ch](assets/images/opengis_team.png)
 
